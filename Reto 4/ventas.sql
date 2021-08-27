@@ -1,8 +1,7 @@
-DROP TABLE if exists ventas;
 CREATE TABLE ventas(
-	fecha date NOT NULL,
-	id_cliente int NOT NULL,
-	id_moto int NOT NULL,
+	fecha DATE NOT NULL,
+	id_cliente INT NOT NULL,
+	id_moto INT NOT NULL,
 	PRIMARY KEY(fecha),
     FOREIGN KEY(id_cliente) REFERENCES clientes(id_cli),
     FOREIGN KEY(id_moto) REFERENCES productos(id_producto)

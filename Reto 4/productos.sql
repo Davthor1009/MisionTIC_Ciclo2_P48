@@ -1,8 +1,7 @@
-drop table if exists productos;
 CREATE TABLE productos(
-	id_producto int,
-	referencia varchar(50) NOT NULL,
-	costo decimal(10,1) NOT NULL,
+	id_producto INT,
+	referencia VARCHAR(50) NOT NULL,
+	costo DECIMAL(10,1) NOT NULL,
 	PRIMARY KEY(id_producto)
 );
 INSERT INTO productos(id_producto, referencia, costo) VALUES(101, 'TKA', 1500000.0);

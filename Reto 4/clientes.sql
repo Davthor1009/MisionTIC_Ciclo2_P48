@@ -1,8 +1,8 @@
 CREATE TABLE clientes(
-	id_cli int,
-	nombre varchar(50) NOT NULL,
-	apellido varchar(50) NOT NULL,
-	telefono int(16) NOT NULL,
+	id_cli INT,
+	nombre VARCHAR(50) NOT NULL,
+	apellido VARCHAR(50) NOT NULL,
+	telefono INT(16) NOT NULL,
 	PRIMARY KEY(id_cli)
 );
 INSERT INTO clientes(id_cli, nombre, apellido, telefono) VALUES(10, 'Julius', 'Hibbert', 66787876);
