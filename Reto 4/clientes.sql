@@ -1,4 +1,3 @@
-drop table if exists clientes;
 CREATE TABLE clientes(
 	id_cli int,
 	nombre varchar(50) NOT NULL,
